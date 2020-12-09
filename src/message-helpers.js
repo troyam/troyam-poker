@@ -3,7 +3,9 @@ class MessageHelpers {
   // given user.
   static containsUserMention(messageText, userId) {
     let userTag = `<@${userId}>`;
-    return messageText && messageText.startsWith(userTag);
+    let message = messageText && messageText.startsWith(userTag);
+    console.log(message)
+    return message;
   }
 }
 
