@@ -16,7 +16,7 @@ class Bot {
   // token - An API token from the bot integration
   constructor(token) {
     this.slack = new Slack(token, true, true);
-    
+    console.log(this.slack)
     this.gameConfig = {};
     this.gameConfigParams = ['timeout'];
   }
@@ -133,7 +133,7 @@ class Bot {
       channel.send('Not enough players for a game, try again later.');
       return rx.Observable.return(null);
     }
-
+    
     channel.send(`We've got ${players.length} players, let's start the game.`);
     this.isGameRunning = true;
     
