@@ -4,9 +4,9 @@
   "engines": {
     "node": "0.12.7"
   },
-  "repository": "https://github.com/CharlieHess/slack-poker-bot",
+  "repository": "https://github.com/troyam/troyam-poker",
   "scripts": {
-    "start": "node src/mainv2.js",
+    "start": "node src/main.js",
     "test": "gulp"
   },
   "license": "MIT",
