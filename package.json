@@ -6,7 +6,7 @@
   },
   "repository": "https://github.com/CharlieHess/slack-poker-bot",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node src/mainv2.js",
     "test": "gulp"
   },
   "license": "MIT",
