@@ -6,8 +6,7 @@
   },
   "repository": "https://github.com/troyam/troyam-poker",
   "scripts": {
-    "start": "node src/main.js",
-    "test": "gulp"
+    "start": "node src/main.js"
   },
   "license": "MIT",
   "devDependencies": {
