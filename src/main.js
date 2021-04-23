@@ -17,6 +17,7 @@ var bot = new Bot(token);
 bot.login();
 // Heroku requires the process to bind to this port within 60 seconds or it is killed
 http.createServer(function(req, res) {
- // res.send({ datetime: new Date().getTime() });
-  res.end()
+  
+ res.json({ datetime: new Date().getTime() });
+  //res.end('')
 }).listen(3000)
